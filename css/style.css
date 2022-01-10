@@ -68,65 +68,61 @@ color: white;
 }
 /*styling for mobile devices starts here*/
 
-/*
-
-@media (min-width: 576px) { 
 
 
-.container{
-    padding: 2% 0;
+@media (max-width:1199.98px) { 
+
+    .container{
+    padding: 10% 0;
 }
 
-#logo{
-    
+
+    #logo{
+    margin-left:8%;
 }
-#bword{
-    margin: 30% 0 0 10%;
+    #bword{
+        width: 355px;
+    margin: 30% 0 0 8%;
 }
 #bfun{
   
-    margin-left: 11%;
+    margin-left: 8%;
+    width: 350px;
     border: solid 1px #fff;
     border-left: none;
     border-right: none;
     
 }
-#playnow{
-color: white;
- border-radius: none;
     
-}
-#playnow button {
+    #playnow button {
     border: none;
-    margin: 80% 0 0 10%;
+    margin: 20% 0 0 20%;
     background-color: #F03303;
-    width: 257px;
-    height: 60px;
+    font-size: 2rem;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+    
    
 }
-#playnow button:hover{
-    background-color: #143B39;
-    color: white;
-    width: 270px;
-    height: 65px;
-}
 .col-md-4 .p1 {
-    margin-left: 10%;
+    margin-left: 20%;
     color: #86E3E3;
     font-family: 'Gotham Light';
     font-size: 2rem;
 }
 .col-md-4 .p2 {
-    margin-left: 10%;
+    margin-left: 20%;
     color: #86E3E3;
     font-family: 'Gotham Light';
     font-size: 1rem;
 }
 .col-md-4 .playstore {
-    margin-left: 10%;
-
-
-
-
+    margin-left: 20%;
+    
 }
-*/
+    
+}
+
+
+
