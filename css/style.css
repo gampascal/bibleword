@@ -3,14 +3,16 @@
 body{
    padding: 0;
     margin: 0;
-    background-image: url(../images/homepage/bg1.png);
+    background-image: url("../images/homepage/bg1.png");
+     
+    background-size: cover;
 }
 .container{
     padding: 2% 0;
 }
 
 #logo{
-    margin-left: -8%
+    
 }
 #bword{
     margin: 30% 0 0 10%;
@@ -70,7 +72,7 @@ color: white;
 
 
 
-@media (max-width:1199.98px) { 
+@media (max-width: 767.98px) { 
 
     .container{
     padding: 10% 0;
@@ -80,49 +82,46 @@ color: white;
     #logo{
     margin-left:8%;
 }
+    .col-md-8{
+        text-align: center;
+    }
     #bword{
-        width: 355px;
-    margin: 30% 0 0 8%;
+        width: 360px;
+    margin: 30% 0 0 5%;
 }
 #bfun{
-  
-    margin-left: 8%;
-    width: 350px;
-    border: solid 1px #fff;
-    border-left: none;
-    border-right: none;
+    margin: 0 0 0 10px;
+    width: 340px;
+    
     
 }
     
-    #playnow button {
-    border: none;
-    margin: 20% 0 0 20%;
-    background-color: #F03303;
-    font-size: 2rem;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 400ms;
+    .col-md-4{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }    
+
+#playnow button {
+   
+    margin: 20% 0 0 0;
+  
     
    
 }
 .col-md-4 .p1 {
-    margin-left: 20%;
-    color: #86E3E3;
-    font-family: 'Gotham Light';
-    font-size: 2rem;
+    margin-left: -2px;
+   
+}
+    .col-md-4 .playstore {
+    margin: 0;
+    
 }
 .col-md-4 .p2 {
-    margin-left: 20%;
-    color: #86E3E3;
-    font-family: 'Gotham Light';
-    font-size: 1rem;
-}
-.col-md-4 .playstore {
-    margin-left: 20%;
+    margin-left: -2px;
     
 }
     
-}
 
 
 
