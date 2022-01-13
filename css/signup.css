@@ -12,15 +12,19 @@ body{
     padding: 2% 0;
    
 }
+
+    .logo{
+    display: none;
+        
+}
  form{
-  padding: 0 ;
+  padding: 0 0 1% 0;
   position: fixed;
   left: 35%;
   top: 10%;
   z-index: 1;
   background-color: #031010;
   width: 394px;
-  height: 535px;
   text-align: center;
   border: solid 2px #247776;
    
@@ -99,7 +103,7 @@ form img{
     
 }
 form p{
-    margin:  0;
+    margin-top:5%;
     color: white;
     font-size: 1.5rem;
 }
@@ -115,51 +119,52 @@ form p strong{
 
 @media (max-width: 767.98px) { 
 
-    .container{
-    padding: 10% 0;
-}
-
-
-    #logo{
-    margin-left:8%;
-}
-    .col-md-8{
-        text-align: center;
-    }
-    #bword{
-        width: 360px;
-    margin: 30% 0 0 5%;
-}
-#bfun{
-    margin: 0 0 0 10px;
-    width: 340px;
-    
-    
-}
-    
-    .col-md-4{
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }    
-
-#playnow button {
-   
-    margin: 20% 0 0 0;
   
+   .container{
+    padding: 1% 0;
+   
+}
+ form{
+   width: 300px;
+  position: absolute;
+  left: 9%;
+  top: 20%;
+}
+    
+form .username{
+    width: 280px;
+    height: 45px;
+    
+    
+}form input{
+   
+    width: 280px;
+    height: 45px;
+    
+   
+    
+}
+
+
+
+form #google{
+    width: 280px;
+    height: 45px;
+   
+  
+}form #facebook{
+    width: 280px;
+    height: 45px;
     
    
 }
-.col-md-4 .p1 {
-    margin-left: -2px;
-   
+        .logo{
+    display: block;
+        position: fixed;
+        top: 5%;
+        left: 9%;
 }
-    .col-md-4 .playstore {
-    margin: 0;
+
+}
     
-}
-.col-md-4 .p2 {
-    margin-left: -2px;
-    
-}
     
