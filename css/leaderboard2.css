@@ -1,0 +1,154 @@
+/*these stylings is for desktop devices*/
+
+body{
+   padding: 0;
+    margin: 0;
+    background:  url("../images/homepage/bg1.png") no-repeat fixed center;
+    background-size: cover;
+    font-family: 'Gotham Light';
+}
+
+
+.container{
+    padding: 2% 0;
+}
+.row{
+    padding: 0;
+}
+ul{
+   list-style-type: none;
+    padding:  5% 13% 0 5% ;
+    
+}
+li{
+    float: left;
+}
+ul .lessthan{
+    width: 30px;
+    height: 30px;
+    transform: scale(1.15);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+ul .lessthan:hover{
+  
+    transform: scale(1);
+}
+ul .right{
+    float: right;
+    padding: 15px 18p;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.right button{
+    width: 124px;
+    height: 30px;
+    border: solid 2px #267A75;
+    background-color: #164442;
+    border-radius: 15px;
+    
+    
+}.right button:hover{
+    background-color: #267A75;
+    
+    
+}
+.right img{
+    width: 70px;
+    height: 20px;
+}
+.right a{
+    color: #C1FFFC;
+}
+#leaderBoardName{
+    margin-left:  10%;
+    color: #267A75;
+}
+ #bar{
+    color:  #267A75;
+     font-size: 5em;
+     margin: -3% 4% 0 4%;
+}
+#leaderBoard{
+    margin-left: 5%;
+    text-align: center;
+    
+}
+#leaderBoard a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 18p;
+    
+    
+    
+}
+#leaderBoard a:hover{
+    border-bottom: solid 2px #F03303;
+    color: white;
+    
+    
+}
+
+#bword{
+    margin: 0 0 0 10%;
+    width: 300px;
+}
+#leftcol{
+    text-align: center;
+    color: #619796;
+    
+    
+}
+#leftcol h1{
+   font-size: 20px; 
+    margin-left: 10%;
+}
+.leftinner{
+    width: 225px;
+    text-align: justify;
+    margin:5% 0 0 24%;
+    background-color: #0D2C2A;
+    color: #619796;
+    font-size: 1rem;
+    padding: 5%;
+    border-radius: 5px;
+
+}
+
+.rightcol{
+    overflow: scroll;
+}
+ #crown{
+     width:  332px;
+     margin: 0 0 0 30%;
+     z-index: -1;
+     
+    
+}
+ .gold{
+    background-color: #014343;
+     text-align: center;
+     height: 165px;
+     color: #86E3E3;
+     border-radius: 10px;
+     position: absolute;
+     top: 77%;
+     overflow: scroll;
+
+     
+    
+     
+   
+    
+}
+#others{
+    background-color: #035B5B;
+     text-align: center;
+     height: 165px;
+     color: #86E3E3;
+     border-radius: 10px;
+    position: absolute;
+    top: 160%;
+    
+}

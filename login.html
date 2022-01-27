@@ -24,9 +24,10 @@
 	<form action="">
 	    
 	    <h1>LOG IN <a href="index.html"><i class="fa fa-times-circle"></i></a></h1>
-	    <input type="text" placeholder="Username" class="username" id="username"> <br><br>
-	    <input type="password" placeholder="Password" id="password"> <r><br></r>
-	   <a href="#"> <button id="continue">Continue to Game</button></a><br><br>
+	    <input type="text" placeholder="Username" class="username" id="userName" required> <br><br>
+	    <input type="password" placeholder="Password" id="passWord" requiredS> <r><br></r>
+	    
+	   <input type="submit" value="Continue to Game" id="continue"><br><br>
 	    <a href="#"><button id="google">Continue with Google <img src="images/login/Vector%20Smart%20Object-3.png" alt=""></button></a><br><br>
 	   <a href="#"> <button id="facebook">Continue with Facebook <img src="images/login/Capa%20-1.png" alt=""></button></a>
 	    <p>Dont have an account yet?<strong> &#124;</strong> <a href="signup.html">Sign Up</a></p>
@@ -42,7 +43,30 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-	<script>
+	<script type="text/javascript">
+        
+        
+          const userName = document.getElementById('username').value;
+        const email = document.getElementById('email').value;
+        const passWord = document.getElementById('password').value;   
+        
+         document.getElementById("continue").onclick = function() {
+            
+       
+           if (userName === " " && passWord === " ") {
+        alert("You have successfully logged in.");
+//        window.location.href = "leaderboard.html";
+    } else {
+        alert("you entered the wrong details ");
+    }
+//         window.location.href = "leaderboard.html";
+               
+    
+    
+//           
+       
+           
+        }
 	</script>
 
 </body>

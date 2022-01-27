@@ -25,13 +25,13 @@
 	    
 	    <h1>Sign Up <a href="index.html"><i class="fa fa-times-circle"></i></a></h1>
 	    
-	    <input type="text" placeholder="Username" class="username" id="username"> <br><br>
+	    <input type="text" placeholder="Username" class="username" id="username" required> <br><br>
 	    
-	    <input type="email" placeholder="Email" id="email"> <br><br>
+	    <input type="email" placeholder="Email" id="email" required> <br><br>
 	    
-	    <input type="password" placeholder="Password" id="password"> <br><br>
+	    <input type="password" placeholder="Password" id="password" required> <br><br>
 	    
-	   <a href="#"> <button id="continue">Continue to Game</button></a><br><br>
+	   <a href="login.html"> <button id="continue">Continue to Game</button></a><br><br>
 	   
 	    <a href="#"><button id="google">Continue with Google <img src="images/login/Vector%20Smart%20Object-3.png" alt=""></button></a><br><br>
 	    
@@ -53,9 +53,26 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript">
+        
+        
+//       for user registration
+        
         document.getElementById("continue").onclick = function() {
             
-            alert("welcome");
+        const userName = document.getElementById('username').value;
+        const email = document.getElementById('email').value;
+        const passWord = document.getElementById('password').value;
+            
+            
+            window.location.href = "login.html";
+            
+//     alert(userName + "" + email+ "" + passWord);
+            
+            
+//      
+//           
+       
+           
         }
         
 	</script>

@@ -6,6 +6,7 @@ body{
     background:  url("../images/homepage/bg1.png") no-repeat fixed center;
     background-size: cover;
     font-family: 'Gotham Light';
+    color: #C1FFFC;
 }
 
 
@@ -75,6 +76,8 @@ ul .right{
     
     
 }
+
+
 
 #bword{
     margin: 20% 0 0 10%;
